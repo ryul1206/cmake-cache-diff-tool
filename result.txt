@@ -1,0 +1,273 @@
+(ter) CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+(gui) CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
+
+(ter) CMAKE_SKIP_RPATH:BOOL=NO
+(gui) CMAKE_SKIP_RPATH:BOOL=OFF
+
+(ter) CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+(gui) CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+
+(ter) CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+(gui) CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
+
+(ter) CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+(gui) CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+
+(ter) CMAKE_EDIT_COMMAND:INTERNAL=/usr/local/bin/ccmake
+(gui) CMAKE_EDIT_COMMAND:INTERNAL=/usr/local/bin/cmake-gui
+
+(ter) rbdl_urdfreader_LIB_DEPENDS:STATIC=general;rbdl;general;/opt/ros/melodic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/melodic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/librosconsole_bridge.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
+(gui) rbdl_urdfreader_LIB_DEPENDS:STATIC=general;rbdl;
+
+
+
+
+
+
+
+(ter) GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
+(gui) GMOCK_FROM_SOURCE_INCLUDE_DIRS: < empty >
+
+(ter) gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
+(gui) gmock_main_LIB_DEPENDS: < empty >
+
+(ter) gmock_BINARY_DIR:STATIC=/home/rise-jjm/Dev/rbdl/build/gtest/googlemock
+(gui) gmock_BINARY_DIR: < empty >
+
+(ter) SETUPTOOLS_DEB_LAYOUT:BOOL=ON
+(gui) SETUPTOOLS_DEB_LAYOUT: < empty >
+
+(ter) gtest_BINARY_DIR:STATIC=/home/rise-jjm/Dev/rbdl/build/gtest/googlemock/gtest
+(gui) gtest_BINARY_DIR: < empty >
+
+(ter) GTEST_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/rise-jjm/Dev/rbdl/build/gtest
+(gui) GTEST_FROM_SOURCE_LIBRARY_DIRS: < empty >
+
+(ter) gmock_SOURCE_DIR:STATIC=/usr/src/googletest/googlemock
+(gui) gmock_SOURCE_DIR: < empty >
+
+(ter) std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
+(gui) std_msgs_DIR: < empty >
+
+(ter) roscpp_serialization_DIR:PATH=/opt/ros/melodic/share/roscpp_serialization/cmake
+(gui) roscpp_serialization_DIR: < empty >
+
+(ter) rospack_DIR:PATH=/opt/ros/melodic/share/rospack/cmake
+(gui) rospack_DIR: < empty >
+
+(ter) gtest_force_shared_crt:BOOL=OFF
+(gui) gtest_force_shared_crt: < empty >
+
+(ter) FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python2][v2.7.17()]
+(gui) FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp: < empty >
+
+(ter) gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
+(gui) gtest_main_LIB_DEPENDS: < empty >
+
+(ter) UBUNTU:BOOL=TRUE
+(gui) UBUNTU: < empty >
+
+(ter) catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
+(gui) catkin_DIR: < empty >
+
+(ter) GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/rise-jjm/Dev/rbdl/build/gmock
+(gui) GMOCK_FROM_SOURCE_LIBRARY_DIRS: < empty >
+
+(ter) FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+(gui) FIND_PACKAGE_MESSAGE_DETAILS_Threads: < empty >
+
+(ter) urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
+(gui) urdf_DIR: < empty >
+
+(ter) GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
+(gui) GTEST_FROM_SOURCE_INCLUDE_DIRS: < empty >
+
+(ter) gtest_disable_pthreads:BOOL=OFF
+(gui) gtest_disable_pthreads: < empty >
+
+(ter) message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+(gui) message_runtime_DIR: < empty >
+
+(ter) gtest_build_samples:BOOL=OFF
+(gui) gtest_build_samples: < empty >
+
+(ter) _gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
+(gui) _gmock_SOURCES: < empty >
+
+(ter) xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
+(gui) xmlrpcpp_DIR: < empty >
+
+(ter) GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
+(gui) GTEST_FROM_SOURCE_FOUND: < empty >
+
+(ter) GMock_DIR:PATH=GMock_DIR-NOTFOUND
+(gui) GMock_DIR: < empty >
+
+(ter) LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
+(gui) LSB_RELEASE_EXECUTABLE: < empty >
+
+(ter) CATKIN_ENABLE_TESTING:BOOL=ON
+(gui) CATKIN_ENABLE_TESTING: < empty >
+
+(ter) _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
+(gui) _gtest_INCLUDES: < empty >
+
+(ter) RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
+(gui) RT_LIBRARY: < empty >
+
+(ter) CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+(gui) CMAKE_HAVE_PTHREADS_CREATE: < empty >
+
+(ter) gtest_LIB_DEPENDS:STATIC=general;-lpthread;
+(gui) gtest_LIB_DEPENDS: < empty >
+
+(ter) rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
+(gui) rosgraph_msgs_DIR: < empty >
+
+(ter) BUILD_SHARED_LIBS:BOOL=ON
+(gui) BUILD_SHARED_LIBS: < empty >
+
+(ter) gtest_SOURCE_DIR:STATIC=/usr/src/googletest/googletest
+(gui) gtest_SOURCE_DIR: < empty >
+
+(ter) CATKIN_ENV:INTERNAL=/home/rise-jjm/Dev/rbdl/build/catkin_generated/env_cached.sh
+(gui) CATKIN_ENV: < empty >
+
+(ter) gtest_hide_internal_symbols:BOOL=OFF
+(gui) gtest_hide_internal_symbols: < empty >
+
+(ter) GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main
+(gui) GMOCK_FROM_SOURCE_MAIN_LIBRARIES: < empty >
+
+(ter) CMAKE_HAVE_PTHREAD_H:INTERNAL=1
+(gui) CMAKE_HAVE_PTHREAD_H: < empty >
+
+(ter) CATKIN_PACKAGE_PREFIX:STRING=
+(gui) CATKIN_PACKAGE_PREFIX: < empty >
+
+(ter) GTEST_LIBRARY:FILEPATH=GTEST_LIBRARY-NOTFOUND
+(gui) GTEST_LIBRARY: < empty >
+
+(ter) SITE:STRING=rise-jjm
+(gui) SITE: < empty >
+
+(ter) CATKIN_SYMLINK_INSTALL:BOOL=OFF
+(gui) CATKIN_SYMLINK_INSTALL: < empty >
+
+(ter) BUILD_GTEST:BOOL=OFF
+(gui) BUILD_GTEST: < empty >
+
+(ter) GTEST_LIBRARY_DEBUG:FILEPATH=GTEST_LIBRARY_DEBUG-NOTFOUND
+(gui) GTEST_LIBRARY_DEBUG: < empty >
+
+(ter) GTEST_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gtest_main
+(gui) GTEST_FROM_SOURCE_MAIN_LIBRARIES: < empty >
+
+(ter) gtest_build_tests:BOOL=OFF
+(gui) gtest_build_tests: < empty >
+
+(ter) _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
+(gui) _gtest_SOURCES: < empty >
+
+(ter) BUILD_GMOCK:BOOL=ON
+(gui) BUILD_GMOCK: < empty >
+
+(ter) rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
+(gui) rostime_DIR: < empty >
+
+(ter) CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
+(gui) CMAKE_HAVE_PTHREAD_CREATE: < empty >
+
+(ter) EMPY_SCRIPT:STRING=/usr/bin/empy
+(gui) EMPY_SCRIPT: < empty >
+
+(ter) CATKIN_SKIP_TESTING:BOOL=OFF
+(gui) CATKIN_SKIP_TESTING: < empty >
+
+(ter) LSB_FOUND:BOOL=TRUE
+(gui) LSB_FOUND: < empty >
+
+(ter) CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+(gui) CMAKE_HAVE_LIBC_PTHREAD: < empty >
+
+(ter) cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
+(gui) cpp_common_DIR: < empty >
+
+(ter) roslib_DIR:PATH=/opt/ros/melodic/share/roslib/cmake
+(gui) roslib_DIR: < empty >
+
+(ter) CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/rise-jjm/Dev/rbdl/build/test_results
+(gui) CATKIN_TEST_RESULTS_DIR: < empty >
+
+(ter) pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+(gui) pluginlib_DIR: < empty >
+
+(ter) _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
+(gui) _gmock_INCLUDES: < empty >
+
+(ter) rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
+(gui) rosconsole_DIR: < empty >
+
+(ter) lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+(gui) lib: < empty >
+
+(ter) DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
+(gui) DOXYGEN_EXECUTABLE: < empty >
+
+(ter) PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python2
+(gui) PYTHON_EXECUTABLE: < empty >
+
+(ter) roscpp_DIR:PATH=/opt/ros/melodic/share/roscpp/cmake
+(gui) roscpp_DIR: < empty >
+
+(ter) GTEST_MAIN_LIBRARY:FILEPATH=GTEST_MAIN_LIBRARY-NOTFOUND
+(gui) GTEST_MAIN_LIBRARY: < empty >
+
+(ter) GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest
+(gui) GTEST_FROM_SOURCE_LIBRARIES: < empty >
+
+(ter) PYTHON_VERSION:STRING=2
+(gui) PYTHON_VERSION: < empty >
+
+(ter) GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
+(gui) GTEST_MAIN_LIBRARY_DEBUG: < empty >
+
+(ter) NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
+(gui) NOSETESTS: < empty >
+
+(ter) gmock_build_tests:BOOL=OFF
+(gui) gmock_build_tests: < empty >
+
+(ter) PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
+(gui) PYTHON_INSTALL_DIR: < empty >
+
+(ter) class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
+(gui) class_loader_DIR: < empty >
+
+(ter) gmock_LIB_DEPENDS:STATIC=general;-lpthread;
+(gui) gmock_LIB_DEPENDS: < empty >
+
+(ter) RBDL_USE_ROS_URDF_LIBRARY:BOOL=ON
+(gui) RBDL_USE_ROS_URDF_LIBRARY: < empty >
+
+(ter) EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
+(gui) EMPY_EXECUTABLE: < empty >
+
+(ter) GTEST_INCLUDE_DIR:PATH=/usr/include
+(gui) GTEST_INCLUDE_DIR: < empty >
+
+(ter) GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
+(gui) GMOCK_FROM_SOURCE_LIBRARIES: < empty >
+
+(ter) roscpp_traits_DIR:PATH=/opt/ros/melodic/share/roscpp_traits/cmake
+(gui) roscpp_traits_DIR: < empty >
+
+(ter) UBUNTU_BIONIC:BOOL=TRUE
+(gui) UBUNTU_BIONIC: < empty >
+
+(ter) rosconsole_bridge_DIR:PATH=/opt/ros/melodic/share/rosconsole_bridge/cmake
+(gui) rosconsole_bridge_DIR: < empty >
+
+(ter) GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
+(gui) GMOCK_FROM_SOURCE_FOUND: < empty >
+

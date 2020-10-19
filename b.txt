@@ -1,0 +1,9 @@
+
+//Path to a program.
+CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
+
+//Path to a program.
+CMAKE_AR:FILEPATH=/usr/bin/ar123123123123
+
+//Choose the type of build.
+CMAKE_BUILD_TYPE:STRING=Release
